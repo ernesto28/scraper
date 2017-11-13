@@ -1,0 +1,2 @@
+
+<%= @scrapped_pages.each {|key,tag| tag.each {|t| puts "#{t.name}\t|#{t.text}   #{t['href'] if t.name=='a'}"}} %>
